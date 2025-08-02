@@ -104,10 +104,11 @@ src/
 
 ## 📸 Screenshots
 
-<!--
-Add screenshots here:
-<img src="screenshots/gameplay.png" width="600" alt="Gameplay Screenshot">
--->
+
+
+<img src="Screenshots/BoardView.png" width="600" alt="Gameplay Screenshot">
+<img src="Screenshots/StartScreen.png" width="600" alt="Gameplay Screenshot">
+
 
 ---
 
