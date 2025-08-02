@@ -48,10 +48,13 @@ public class GameModel {
     }
 
     public void updatePlayerPosition(int playerIndex, int newPosition) {
-        this.playerPositions[playerIndex] = newPosition;
-        if (newPosition == WINNING_POSITION) {
-            this.playerPositions[playerIndex] = WINNING_POSITION;
+        if (newPosition > WINNING_POSITION) {
+            return;
+        } else if (newPosition == WINNING_POSITION) {
+            this.playerPositions[playerIndex] = newPosition;
             this.isGameWon = true;
+        } else {
+            this.playerPositions[playerIndex] = newPosition;
         }
     }
 
